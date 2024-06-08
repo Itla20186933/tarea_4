@@ -1,4 +1,4 @@
-const holaMundo = require('./hola_mundo');
+const holaMundo = require('./holaMundo.js');
 
 test('Imprime "¡Hola Mundo!" en la consola', () => {
   console.log = jest.fn();
